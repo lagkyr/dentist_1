@@ -32,7 +32,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbx3Cx6jPjYVTExsJhNdvK
             msg.innerHTML = "Ευχαριστούμε για την επικοινωνία σας! Θα σας απαντήσουμε το συντομότερο δυνατόν." 
             setTimeout(function(){
               msg.innerHTML = ''
-            }, 4000)
+            }, 8000)
           form.reset()
           })
           .catch(error => console.error('Error!', error.message))
