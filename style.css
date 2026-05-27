@@ -6,7 +6,6 @@
   --white: #fff;
   --light-color: #666;
   --light-bg: #eee;
-  --light-bg2: rgba(0, 0, 0, 0.274);
   --border: .2rem solid rgba(0,0,0,.1);
   --box-shadow: 0 .5rem 1rem rgba(0, 0, 0,.1 );
   
@@ -67,7 +66,6 @@ section{
   box-shadow: var(--box-shadow);
   cursor: pointer;
   transition: .2s linear;
-  text-align: center;
 }
 
 .link-btn:hover{
@@ -117,7 +115,7 @@ section{
   background: url('images/dentist3.jpg') no-repeat ;
   background-size: cover;
   background-position: center;
- 
+
 }
 
 .home .content{
@@ -250,12 +248,12 @@ section{
   
  .contact form{
   border-radius: .5rem;
-  background-color: var(--light-bg2);
-  padding: 1rem;
+  background-color: var(--light-bg);
+  padding: 2rem;
   margin: 0 auto;
-  max-width: 40rem;
-  box-shadow: var(--box-shadow); 
-   
+  max-width: 50rem;
+   box-shadow: var(--box-shadow);  
+
  }
 
   .contact form .message{
@@ -263,7 +261,7 @@ section{
   border-radius: .5rem;
   background-color: var(--blue);
   padding: 1.5rem 1rem;
-  font-size: 1rem;
+  font-size: 1.7rem;
   color: var(--white);
   text-align: center;
 
@@ -271,13 +269,13 @@ section{
 
 
 .contact form .box{
- width: 100%;
+  width: 100%;
  margin-top: 1rem;
  margin-bottom: 2rem;
  border-radius: 2rem;
  background-color: var(--white);
  padding: 1.2rem 1.4rem;
- font-size:1.5rem ;
+ font-size:1.7rem ;
  color: var(--black);
   text-transform: none; 
 
@@ -295,11 +293,6 @@ section{
 
 } 
 
-.copyright-text{
-  text-align: right;
-  color: var(--light-color);
-  font-size: 1rem;
-}
 
 
 /* media queries */
