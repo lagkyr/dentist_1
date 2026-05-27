@@ -222,24 +222,13 @@
 
   <section class="contact" id="contact">
     <h1 class="heading">Επικοινωνία</h1>
-    <div class="row container">
-     <!-- <h3>Κάντε ένα ραντεβού</h3> -->
-    </div>
-      <form name="submit-to-google-sheet">
+     <div class="row container"></div> 
+     
 
-        <span>Ονομα</span>
-        <input type="text" name="name" placeholder="Όνομα"  class="box">
-        <span>Email</span>
-        <input type="email" name="email" placeholder="Email" class="box">
-        <span>Τηλεφωνο</span>
-        <input type="phone" name="phone" placeholder="Τηλέφωνο" class="box" >
-        <span>Ραντεβου</span>
-        <input type="datetime-local" name="appointment" placeholder="Ραντεβού" class="box">
-        <input type="submit" value="Ραντεβού" name="submit" class="link-btn">
-      </form>
+   
 
-       <div class="col-12 col-lg-6">
-            <h2 class="text-decoration-underline">Που μπορείτε να μας βρείτε</h2>
+      <div class="d-flex justify-content-center align-items-center flex-column">
+            <h2 class="text-decoration-underline">Πού μπορείτε να μας βρείτε!</h2>
             
             <p>Λεωφόρος Κύπρου 98 Αργυρούπολη <br>
               <i class="fas fa-fw fa-mobile"></i><a href="tel:+30 6972427749">+30 6944135716</a><br>
@@ -253,19 +242,47 @@
               
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.016025913186!2d23.75052457630909!3d37.90668810454969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1be07b90b78d1%3A0x7509100c65cc45d1!2zzpvOtc-Jz4YuIM6az43PgM-Bzr_PhSA5OCwgzpHPgc6zz4XPgc6_z43PgM6_zrvOtyAxNjQgNTE!5e0!3m2!1sel!2sgr!4v1772297209583!5m2!1sel!2sgr" width="320" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-       </div>
-           </div>
+      </div>
+
+      <form name="submit-to-google-sheet">
+
+        <span>Ονομα</span>
+        <input type="text" name="name" placeholder="Όνομα"  class="box" required>   >
+        <span>Email</span>
+        <input type="email" name="email" placeholder="Email" class="box" required >
+        <span>Τηλεφωνο</span>
+        <input type="phone" name="phone" placeholder="Τηλέφωνο" class="box" required>
+        <span>Ραντεβου</span>
+        <input type="datetime-local" name="appointment" placeholder="Ραντεβού" class="box" required>
+        <input type="submit" value="Ραντεβού" name="submit" class="link-btn">
+      </form>
+
+       
+           
 
       <span id="msg"></span> 
           
 
-      <span id="msg"></span> 
       
 
 
 </section>
 
 <!-- FOOTER SECTION START -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-6 text-center text-md-left">
+        <p>&copy;  Dental Care Copyright 2026: By Kyriakos L</p>
+      </div>
+      <div class="col-md-6 text-center text-md-right">
+        <a href="#home" class="logo"><i class="fas fa-tooth"></i>DENTAL<span>  CARE </span> </a>
+      </div>
+    </div>
+  </div>
+
+</footer>
 
   <script src="script.js"></script>
 </body>
