@@ -29,10 +29,10 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbx3Cx6jPjYVTExsJhNdvK
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
           .then(response => {
-            msg.innerHTML = "Ευχαριστούμε για την επικοινωνία σας! Θα σας απαντήσουμε το συντομότερο δυνατόν." 
+            msg.innerHTML = "<center><h3> Θα επικοινωνησουμε μαζι σας το συντομοτερο δυνατον, για επιβεβαιωση του ραντευου σας.<br>Σας ευχαριστουμε!</h3></center>"
             setTimeout(function(){
               msg.innerHTML = ''
-            }, 8000)
+            }, 10000)
           form.reset()
           })
           .catch(error => console.error('Error!', error.message))
